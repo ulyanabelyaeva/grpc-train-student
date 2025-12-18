@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: grpc-train-student
+grpc:
+  server:
+    port: 7070
+  client:
+    grpc-train-course:
+      address: localhost:9090
+      negotiation-type: plaintext #без шифрования
