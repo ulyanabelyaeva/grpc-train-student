@@ -1,3 +1,5 @@
+server:
+  port: 7080
 spring:
   application:
     name: grpc-train-student
@@ -8,3 +10,6 @@ grpc:
     grpc-train-course:
       address: localhost:9090
       negotiation-type: plaintext #без шифрования
+logging:
+  level:
+    org.belyaeva: debug
